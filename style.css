@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+*{
+    color: #000;
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+/*common css End*/
+.box{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 3px;
+    /* float: left; */
+}
+.main_box{
+    display: flex;
+    justify-content: space-between;
+}
+.gap_area{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: gray;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manu{
+    display: flex;
+  
+}
+.manu li a{
+    padding: 00px 20px;
+    display: block;
+}
+.logo h1{
+    padding: 20px 20px;
+}
+.manu li a:hover{
+    background-color: red;
+    color: white;
+}
+.drop_menu{
+    display: none;
+    background-color: #000;
+    
+    color: white;
+}
+.manu li:hover .drop_menu{
+    display: block;
+    background-color: antiquewhite;
+    color: red;
+    
+
+}
